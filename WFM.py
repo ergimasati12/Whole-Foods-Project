@@ -17,7 +17,7 @@ i=0
 total_tips = int(input("Enter total amount of tips made today: "))
 print("Please enter employee names, when done, enter 'DONE'")
 while name is None:
-    input_value = input("Please enter your name: ")
+    input_value = input("Please enter the employee name: ")
     if input_value == "DONE":                 
         break                # Constructing a list with all employees 
                              # names that appear on Tip Sign-In Sheet
