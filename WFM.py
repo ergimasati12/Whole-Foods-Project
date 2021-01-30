@@ -29,7 +29,7 @@ while hours is None:
         break
     else:
         print("Please enter how many hours the indicated employee worked!")
-        value = int(input("how many hours did " + list1[i] + " work? "))
+        value = float(input("how many hours did " + list1[i] + " work? "))
         list2.append(value)
         i += 1                      # Constructing a corresponding list keeping
                                     # track of each employee's hours for the day
